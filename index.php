@@ -45,30 +45,30 @@
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/xuant.js"></script>
 <div class="jiao">
   <DIV id="imgPlay">
-    <UL class="imgs" id="actor">
+    <ul class="imgs" id="actor">
         <?php if (get_option('mytheme_about_img6')!=""): ?>
-        <LI><a href="<?php echo get_option('mytheme_about_url6'); ?>"> <img src="<?php echo get_option('mytheme_about_img6'); ?>" alt="<?php echo get_option('mytheme_about_tit6'); ?>" /> </a></LI>  
+        <li><a href="<?php echo get_option('mytheme_about_url6'); ?>"> <img src="<?php echo get_option('mytheme_about_img6'); ?>" alt="<?php echo get_option('mytheme_about_tit6'); ?>" /> </a></li>  
         <?php else : ?>    
-        <LI><img src="<?php bloginfo('template_url'); ?>/images/jiao2_05.gif" /></LI>
-        <LI><img src="<?php bloginfo('template_url'); ?>/images/jiao1_05.gif"  /></LI>
-        <LI> <img src="<?php bloginfo('template_url'); ?>/images/jiao2_05.gif"  /></LI>
-        <LI><img src="<?php bloginfo('template_url'); ?>/images/jiao1_05.gif"  /></LI>
-        <LI><img src="<?php bloginfo('template_url'); ?>/images/jiao2_05.gif"  /></LI>
+        <li><img src="<?php bloginfo('template_url'); ?>/images/jiao2_05.gif" /></li>
+        <li><img src="<?php bloginfo('template_url'); ?>/images/jiao1_05.gif"  /></li>
+        <li><img src="<?php bloginfo('template_url'); ?>/images/jiao2_05.gif"  /></li>
+        <li><img src="<?php bloginfo('template_url'); ?>/images/jiao1_05.gif"  /></li>
+        <li><img src="<?php bloginfo('template_url'); ?>/images/jiao2_05.gif"  /></li>
         <?php endif; ?>
         <?php if (get_option('mytheme_about_img7')!=""): ?>
-        <LI> <a href="<?php echo get_option('mytheme_about_url7'); ?>"><img src="<?php echo get_option('mytheme_about_img7'); ?>" alt="<?php echo get_option('mytheme_about_tit7'); ?>" /></a></LI>  
+        <li> <a href="<?php echo get_option('mytheme_about_url7'); ?>"><img src="<?php echo get_option('mytheme_about_img7'); ?>" alt="<?php echo get_option('mytheme_about_tit7'); ?>" /></a></li>  
         <?php else : ?>  
         <?php endif; ?>
         <?php if (get_option('mytheme_about_img8')!=""): ?>
-        <LI> <a href="<?php echo get_option('mytheme_about_url8'); ?>"><img src="<?php echo get_option('mytheme_about_img8'); ?>" alt="<?php echo get_option('mytheme_about_tit8'); ?>" /></a></LI>  
+        <li> <a href="<?php echo get_option('mytheme_about_url8'); ?>"><img src="<?php echo get_option('mytheme_about_img8'); ?>" alt="<?php echo get_option('mytheme_about_tit8'); ?>" /></a></li>  
         <?php else : ?>  
         <?php endif; ?>
         <?php if (get_option('mytheme_about_img9')!=""): ?>
-        <LI> <a href="<?php echo get_option('mytheme_about_url9'); ?>"><img src="<?php echo get_option('mytheme_about_img9'); ?>" alt="<?php echo get_option('mytheme_about_tit9'); ?>" /></a></LI>  
+        <li> <a href="<?php echo get_option('mytheme_about_url9'); ?>"><img src="<?php echo get_option('mytheme_about_img9'); ?>" alt="<?php echo get_option('mytheme_about_tit9'); ?>" /></a></li>  
         <?php else : ?>  
         <?php endif; ?>
         <?php if (get_option('mytheme_about_img0')!=""): ?>
-        <LI> <a href="<?php echo get_option('mytheme_about_url0'); ?>"><img src="<?php echo get_option('mytheme_about_img0'); ?>" alt="<?php echo get_option('mytheme_about_tit0'); ?>" /></a></LI>  
+        <li> <a href="<?php echo get_option('mytheme_about_url0'); ?>"><img src="<?php echo get_option('mytheme_about_img0'); ?>" alt="<?php echo get_option('mytheme_about_tit0'); ?>" /></a></li>  
        <?php else : ?>  
        <?php endif; ?>
     </UL>
@@ -109,8 +109,8 @@
     <?php $posts = get_posts( "category=$cat->term_id&numberposts=8" ); ?>
     <?php if( $posts ) : ?>     
     <?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
-    <a href="<?php the_permalink() ?>" title="<?php echo mb_strimwidth(strip_tags($post->post_content),30,40,"... :"); ?>">    
-    <?php echo mb_strimwidth(strip_tags($post->post_content),0,30,"... :"); ?>
+    <a href="<?php the_permalink() ?>" title="<?php echo mb_strimwidth(strip_tags($post->post_content),18,60,"... :"); ?>">    
+    <?php echo mb_strimwidth(strip_tags($post->post_content),8,28,"..."); ?>
     </a>
     <?php endforeach; ?>
     <?php endif; ?>   
@@ -130,8 +130,8 @@
     <?php $posts = get_posts( "category=$cat->term_id&numberposts=8" ); ?>
     <?php if( $posts ) : ?>     
     <?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
-      <a href="<?php the_permalink() ?>" title="<?php echo mb_strimwidth(strip_tags($post->post_content),30,40,"... :"); ?>">    
-      <?php echo mb_strimwidth(strip_tags($post->post_content),0,30,"... :"); ?>
+      <a href="<?php the_permalink() ?>" title="<?php echo mb_strimwidth(strip_tags($post->post_content),18,60,"... :"); ?>">    
+      <?php echo mb_strimwidth(strip_tags($post->post_content),8,28,"..."); ?>
       </a>
     <?php endforeach; ?>
     <?php endif; ?> 
@@ -151,20 +151,20 @@
     <li class="fsll">
       <a href=""></a></li>
     <li class="kctx">
-      <a href=""></li>
+      <a href=""></a></li>
     <li class="yybm">
-      <a href=""></li>
+      <a href="http://zjfdq.com/?page_id=12" target="_blank"></a></li>
     <li class="jchd">
-      <a href=""></li>
+      <a href="http://zjfdq.com/?cat=4" target="_blank"></a></li>
     <li class="yhtc">
-      <a href=""></li>
+      <a href=""></a></li>
     <li class="jzdy">
-      <a href=""></li>
+      <a href="http://zjfdq.com/?cat=6" target="_blank"></a></li>
 
   </ul><!-- / -->
 </div><!-- bk_fenlei -->
   </div>
 
 </div>
-
+<div class="clear"></div><!-- / -->
 <?php get_footer(); ?>

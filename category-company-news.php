@@ -6,7 +6,7 @@
     <?php if (get_option('mytheme_lx_title')!=""): ?>
    <img src="<?php echo get_option('mytheme_lx_title'); ?>" />
     <?php else : ?>   
-   <img src="<?php bloginfo('template_url'); ?>/images/pages/about_tu_07.jpg" />
+   <img src="<?php bloginfo('template_url'); ?>/images/pages/company-news.jpg" />
      <?php endif; ?>
      </div>
     <ul class="all_nav2">
@@ -69,10 +69,21 @@ $cat=get_category_by_slug('company-news'); //获取分类别名为 wordpress 的
     
     
     
-    <div class="rightmain2">
-    <?php include_once("sidebar.php"); ?>
+<div class="rightmain2">
+<div id="sidebar" class="">
+<div id="text-3" class="widget widget_text">
+  <h2>分类目录</h2>      
+  <div class="textwidget">
+    <div id="categories-2" class="h_fenleimulu">  
+  <ul>
+    <li class=""><a href="http://zjfdq.com/?cat=1" target="_blank">新闻动态</a></li>
+  </ul>
     </div>
-   
+  </div>
+</div>
+</div><!-- / -->
+<?php include_once("sidebar.php"); ?>
+</div><!--rightmain2-->
    
    
    </div>

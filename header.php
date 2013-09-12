@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
-
+<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?> >
+<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+<meta name="renderer" content="webkit">
 <head profile="http://gmpg.org/xfn/11">
-    
-    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-    <meta name="keywords" content="<?php
+<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+<meta name="keywords" content="<?php
  // 如果是首页和文章列表页面
     if(is_front_page() || is_home()) { 
     echo get_option('mytheme_keywords');
@@ -108,7 +107,6 @@ echo $keywords . $tag->name . ",";}
               if ($paged>1) {
                  echo ' - page '. $paged; }
            ?>
-          
     </title>
     <link rel="shortcut icon" href="<?php bloginfo('stylesheet_url'); ?>/favicon.ico" type="image/x-icon" />
     
@@ -117,13 +115,9 @@ echo $keywords . $tag->name . ",";}
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head(); ?>
-
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
-    <script type="text/javascript"  charset=utf-8 src="<?php bloginfo('template_url'); ?>/js/lrscroll.js"></script> 
-    <script src="<?php bloginfo('template_url'); ?>/png/pngtm.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        DD_belatedPNG.fix('div, ul, img, li, input , a');
-    </script>
+    <script type="text/javascript"  charset="utf-8" src="<?php bloginfo('template_url'); ?>/js/lrscroll.js"></script> 
+
     
   </head>
 
@@ -141,13 +135,14 @@ echo $keywords . $tag->name . ",";}
 <?php endif; ?>
   <div class="top_right">
     <ul>
-    <li><a href="#" title="" target="_blank">联系我们 </a></li>
-    <li><a href="#" title="" target="_blank"> | 人才招聘 </a></li>
+    <li><a href="http://www.zjfdq.com/?page_id=94" title="" target="_blank">联系我们 </a></li>
+    <li><a href="http://www.zjfdq.com/?page_id=481" title="" target="_blank"> | 人才招聘 </a></li>
     <li><a href="#" title="" target="_blank"> | 关注微博 <img src="<?php bloginfo('template_url'); ?>/images/weibo.gif" alt="关注我们的微博"></a></li>
-    <li><a href="http://zjfdq.com/sitemap.xml" title="sitemap" target="_blank"> | 订阅资讯 <img src="<?php bloginfo('template_url'); ?>/images/rss.gif" alt="订阅我们的动态"></a></li>
-    <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=644494365&amp;site=qq&amp;menu=yes" title="" target="_blank"> | QQ客服 <img src="<?php bloginfo('template_url'); ?>/images/qq.gif" alt="有事您Q我吧"></a></li>
+    <li class="h_weixin"><a href="#" title="微信" target="_blank"> | 扫扫微信 <img src="<?php bloginfo('template_url'); ?>/images/weixin.gif" alt="微信公众帐号"></a></li>
+    <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=157779790&amp;site=qq&amp;menu=yes" title="" target="_blank"> | QQ客服 <img src="<?php bloginfo('template_url'); ?>/images/qq.gif" alt="有事您Q我吧"></a></li>
+    <li class="h_weixin_hover"><img src="<?php bloginfo('template_url'); ?>/images/weixin-hover.png" alt=""></li>
     </ul>
-    <span>加盟热线：400-888-8888</span><p>课程咨询：400-888-8888</p>
+    <span>加盟热线：0579-8667-5400</span><p>课程咨询：0579-8667-5400</p>
   </div> 
           </div>
       </div><!-- / -->

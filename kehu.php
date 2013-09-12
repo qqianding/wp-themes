@@ -13,7 +13,7 @@ Template Name:kehu
    <div class="main3"> 
      <ul class="all_nav">
         <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
-        <li><a href="#">客户汇总</a>></li>
+        <li><a href="#">建议与意见 </a> ></li>
      </ul>
   
        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

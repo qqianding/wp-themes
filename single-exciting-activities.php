@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <div class="maim_pages">
    <div class="main3"> 
-   <img src="<? bloginfo('template_url'); ?>/images/pages/ke-cheng.jpg" />
+   <img src="<? bloginfo('template_url'); ?>/images/pages/huodong.jpg" />
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 
-            $cat=get_category_by_slug('ke-cheng'); //获取分类别名为 wordpress 的分类数据
-            echo get_category_link( $cat );?>">免费试听课</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
+            $cat=get_category_by_slug('exciting-activities'); //获取分类别名为 wordpress 的分类数据
+            echo get_category_link( $cat );?>">精彩活动</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
      </ul>
     <div class="leftmain5">
     <div class="news_show">
@@ -41,25 +41,28 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
             </li>
 			</ul>
 		</div>
+
+ <div class="h_video_comments"><?php comments_template(); ?></div>    
+
 	<?php endwhile; endif; ?>
      </div>
    </div>
     </div>
-<div class="rightmain2">
+    <div class="rightmain2">
 <div id="sidebar" class="">
-<div id="text-3" class="widget widget_text">
-  <h2>分类目录</h2>      
-  <div class="textwidget">
-    <div id="categories-2" class="h_fenleimulu">  
-  <ul>
-    <li class=""><a href="http://zjfdq.com/?cat=5" target="_blank">免费试听课</a></li>
-  </ul>
+    <div id="text-3" class="widget widget_text">
+      <h2>分类目录</h2>      
+      <div class="textwidget">
+        <div id="categories-2" class="h_fenleimulu">  
+      <ul>
+        <li class=""><a href="http://zjfdq.com/?cat=4" target="_blank">精彩活动</a></li>
+      </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 </div><!-- / -->
 <?php include_once("sidebar.php"); ?>
-</div><!--rightmain2-->
+    </div><!--rightmain2-->
    </div>
 </div>
 <?php get_footer(); ?>

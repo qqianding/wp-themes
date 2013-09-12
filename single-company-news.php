@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="maim_pages">
    <div class="main3"> 
-   <img src="<? bloginfo('template_url'); ?>/images/pages/news-list.jpg" />
+   <img src="<? bloginfo('template_url'); ?>/images/pages/company-news.jpg" />
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 
@@ -45,9 +45,21 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
      </div>
    </div>
     </div>
-    <div class="rightmain2">
-    <?php include_once("sidebar.php"); ?>
+<div class="rightmain2">
+<div id="sidebar" class="">
+<div id="text-3" class="widget widget_text">
+  <h2>分类目录</h2>      
+  <div class="textwidget">
+    <div id="categories-2" class="h_fenleimulu">  
+  <ul>
+    <li class=""><a href="http://zjfdq.com/?cat=1" target="_blank">新闻动态</a></li>
+  </ul>
     </div>
+  </div>
+</div>
+</div><!-- / -->
+<?php include_once("sidebar.php"); ?>
+</div><!--rightmain2-->
    </div>
 </div>
 <?php get_footer(); ?>

@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <div class="maim_pages">
    <div class="main3"> 
-   <img src="<? bloginfo('template_url'); ?>/images/pages/news-list.jpg" />
+   <img src="<? bloginfo('template_url'); ?>/images/pages/da-yi.jpg" />
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 
-            $cat=get_category_by_slug('company-news'); //获取分类别名为 wordpress 的分类数据
-            echo get_category_link( $cat );?>">新闻动态</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
+            $cat=get_category_by_slug('da-yi'); //获取分类别名为 wordpress 的分类数据
+            echo get_category_link( $cat );?>">家长答疑/a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
      </ul>
     <div class="leftmain5">
     <div class="news_show">

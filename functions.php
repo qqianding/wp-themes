@@ -1,4 +1,4 @@
-<?php
+﻿<?php
  include_once("xuanxiang.php");
 
 //add post thumbnails
@@ -46,7 +46,7 @@ return $first_img;
 	// Load jQuery
 	if ( !is_admin() ) {
 	   wp_deregister_script('jquery');
-	   wp_register_script('jquery', ("http://hzlumi.com/jquery/1.4.1/min.js"), false);
+	   wp_register_script('jquery', ("http://zjfdq.com/jquery/1.4.1/min.js"), false);
 	   wp_enqueue_script('jquery');
 	}
 	
@@ -181,3 +181,4 @@ return $buttons;
 add_filter("mce_buttons_3", "add_editor_buttons");
 
 //增强编辑器结束
+ ?>

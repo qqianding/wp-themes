@@ -1,6 +1,6 @@
 <?php  
 /* 
-Template Name:da-yi
+Template Name:yi-jian
 */  
 ?> 
 <?php get_header(); ?>

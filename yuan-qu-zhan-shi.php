@@ -1,12 +1,19 @@
+<?php  
+/* 
+Template Name:yuan-qu-zhan-shi
+*/  
+?> 
+
+
 <?php get_header(); ?>
 <div class="maim_pages">
    <div class="main3"> 
-   <img src="<? bloginfo('template_url'); ?>/images/pages/ke-cheng.jpg" />
+   
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 
-            $cat=get_category_by_slug('ke-cheng'); //获取分类别名为 wordpress 的分类数据
-            echo get_category_link( $cat );?>">免费试听课</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
+            $cat=get_category_by_slug('zjy-jie-shao'); //获取分类别名为 wordpress 的分类数据
+            echo get_category_link( $cat );?>">早教园介绍</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
      </ul>
     <div class="leftmain5">
     <div class="news_show">
@@ -52,7 +59,9 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
   <div class="textwidget">
     <div id="categories-2" class="h_fenleimulu">  
   <ul>
-    <li class=""><a href="http://zjfdq.com/?cat=5" target="_blank">免费试听课</a></li>
+    <li class=""><a href="http://zjfdq.com/?page_id=323" target="_blank">关于冯式早教</a></li>
+    <li class=""><a href="http://zjfdq.com/?page_id=350" target="_blank">政府合作</a></li>
+    <li class=""><a href="http://zjfdq.com/?page_id=330" target="_blank">园区展示</a></li>
   </ul>
     </div>
   </div>
