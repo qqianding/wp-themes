@@ -17,8 +17,8 @@ elseif ( in_category('zjy-jie-shao') ) { // plugin 为category的别名
 include(TEMPLATEPATH . '/single-zjy-jie-shao.php');
 }
 
-elseif ( in_category('fdq-yu-er-jing') ) { // plugin 为category的别名
-include(TEMPLATEPATH . '/single-fdq-yu-er-jing.php');
+elseif ( in_category('shi-sheng-feng-cai') ) { // plugin 为category的别名
+include(TEMPLATEPATH . '/single-shi-sheng-feng-cai.php');
 }
 
 elseif ( in_category('da-yi') ) { // plugin 为category的别名

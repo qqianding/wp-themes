@@ -1,19 +1,12 @@
-<?php  
-/* 
-Template Name:zheng-fu-he-zuo
-*/  
-?> 
-
-
 <?php get_header(); ?>
 <div class="maim_pages">
    <div class="main3"> 
-   
+   <img src="<? bloginfo('template_url'); ?>/images/pages/shisheng.jpg" />
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 
-            $cat=get_category_by_slug('zjy-jie-shao'); //获取分类别名为 wordpress 的分类数据
-            echo get_category_link( $cat );?>">早教园介绍</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
+            $cat=get_category_by_slug('shi-sheng-feng-cai'); //获取分类别名为 wordpress 的分类数据
+            echo get_category_link( $cat );?>">师生风采</a> &nbsp;> &nbsp;<a><?php the_title(); ?></a></li>
      </ul>
     <div class="leftmain5">
     <div class="news_show">
@@ -21,12 +14,12 @@ Template Name:zheng-fu-he-zuo
 
    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
          <div class="sing_bt">
-			<h1><?php the_title(); ?></h1>
-		     <a><?php the_time('m-d-y') ?></a>
+      <h1><?php the_title(); ?></h1>
+         <a><?php the_time('m-d-y') ?></a>
          </div>
-			<div class="entry">
-				<?php the_content(); ?>
-			<ul class="wen_di">	
+      <div class="entry">
+        <?php the_content(); ?>
+      <ul class="wen_di"> 
             <li><p><?php the_tags( 'Tags: ', ', ', ''); ?></p></li>
             <li>
 <!--  Button  -->
@@ -50,29 +43,30 @@ var jiathis_config={
 <!--  Button  -->
 
             </li>
-			</ul>
-		</div>
-	<?php endwhile; endif; ?>
+      </ul>
+    </div>
+
+ <div class="h_video_comments"><?php comments_template(); ?></div>    
+
+  <?php endwhile; endif; ?>
      </div>
    </div>
     </div>
-<div class="rightmain2">
+    <div class="rightmain2">
 <div id="sidebar" class="">
-<div id="text-3" class="widget widget_text">
-  <h2>分类目录</h2>      
-  <div class="textwidget">
-    <div id="categories-2" class="h_fenleimulu">  
-  <ul>
-    <li class=""><a href="http://zjfdq.com/?page_id=323" target="_blank">关于冯式早教</a></li>
-    <li class=""><a href="http://zjfdq.com/?page_id=350" target="_blank">政府合作</a></li>
-    <li class=""><a href="http://zjfdq.com/?page_id=330" target="_blank">园区展示</a></li>
-  </ul>
+    <div id="text-3" class="widget widget_text">
+      <h2>分类目录</h2>      
+      <div class="textwidget">
+        <div id="categories-2" class="h_fenleimulu">  
+      <ul>
+        <li class=""><a href="http://zjfdq.com/?cat=2" target="_blank">师生风采</a></li>
+      </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 </div><!-- / -->
 <?php include_once("sidebar.php"); ?>
-</div><!--rightmain2-->
+    </div><!--rightmain2-->
    </div>
 </div>
 <?php get_footer(); ?>

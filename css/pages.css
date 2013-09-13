@@ -210,3 +210,14 @@ input:focus,textarea:focus{-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;-moz-bo
 .h_hd h2.h_hd_h2{}
 .h_hd a.h_hd_a{}
 .h_video_comments{}
+/*师生风采*/
+.h-ssfc{width: 620px;}
+.h-ssfc ul{}
+.h-ssfc ul li{}
+.h-ssfc ul li a{}
+.h-ssfc ul li a:hover{opacity:0.6;filter:alpha(opacity=60);}
+.h-ssfc ul li span{}
+.title h2 a{line-height: 20px;}
+.title h2{margin: 0;}
+.ks-waterfall {position: absolute; width: 180px;overflow: hidden;padding: 4px;border: 1px solid #f90; margin-bottom: 20px;text-align: center;left:-9999px;top:-9999px;}
+

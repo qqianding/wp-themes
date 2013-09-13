@@ -21,22 +21,26 @@
 				
 				<?php the_content(); ?>	
 <p><?php the_tags( 'Tags: ', ', ', ''); ?></p>
-<!-- Baidu Button BEGIN -->
-<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
-<span class="bds_more">分享到：</span>
-<a class="bds_qzone"></a>
-<a class="bds_tsina"></a>
-<a class="bds_tqq"></a>
-<a class="bds_renren"></a>
-<a class="bds_t163"></a>
-<a class="shareCount"></a>
+<!--  Button  -->
+<div class="jiathis_style_32x32">
+<a class="jiathis_button_qzone"></a>
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_renren"></a>
+<a class="jiathis_button_kaixin001"></a>
+<a href="http://www.jiathis.com/share?uid=1743555" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
 </div>
-<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6255883" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
-<script type="text/javascript">
-document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+<script type="text/javascript" >
+var jiathis_config={
+	data_track_clickback:true,
+	summary:"",
+	shortUrl:false,
+	hideMore:false
+}
 </script>
-<!-- Baidu Button END -->
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1743555" charset="utf-8"></script>
+<!--  Button  -->
+
           
 		</div>
 	<?php endwhile; endif; ?>

@@ -24,7 +24,7 @@ Template Name:yuan-qu-zhan-shi
 			<h1><?php the_title(); ?></h1>
 		     <a><?php the_time('m-d-y') ?></a>
          </div>
-			<div class="entry">
+			<div class="entry entry-p">
 				<?php the_content(); ?>
 			<ul class="wen_di">	
             <li><p><?php the_tags( 'Tags: ', ', ', ''); ?></p></li>
@@ -44,6 +44,9 @@ Template Name:yuan-qu-zhan-shi
 <script type="text/javascript">
 document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
 </script>
+<style type="text/css" media="screen">
+.entry-p{width: 590px;}
+</style>
 <!-- Baidu Button END -->
             </li>
 			</ul>

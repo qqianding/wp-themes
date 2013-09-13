@@ -10,6 +10,7 @@ Template Name:biao-dan
 .h_form h3,.h_form h4{font-style: normal;font-weight: normal;margin: 0px;padding: 10px 0 0 20px;background: #ff6600;}
 .h_form h3{font-size: 28px;font-weight: bold}
 .h_form h4{font-size: 16px;padding: 0 0 20px 20px;}
+.maim_pages .h_form p{font-family: "微软雅黑";font-size: 18px;font-weight: bold;color: #73787A;text-shadow: 0 1px 0 rgba(255,255,255,0.8);padding: 90px 50px;line-height: 40px;text-indent: 36px;}
 </style>
 
 

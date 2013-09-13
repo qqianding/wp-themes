@@ -42,8 +42,8 @@ $cat=get_category_by_slug('company-news'); //获取分类别名为 wordpress 的
 
 	<?php else : ?>
          <li>
-             <a class="bt" href="#"> <h1>奢华风吹艳长沙婚庆市场 </h1></a>
-             <a class="time" href="#">2012-5-30</a>
+             <a class="bt" href="#"> <h1>举个栗子</h1></a>
+             <a class="time" href="#">2013-08-01</a>
          
          </li>
 
