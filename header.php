@@ -137,7 +137,7 @@ echo $keywords . $tag->name . ",";}
     <ul>
     <li><a href="http://www.zjfdq.com/?page_id=94" title="" target="_blank">联系我们 </a></li>
     <li><a href="http://www.zjfdq.com/?page_id=481" title="" target="_blank"> | 人才招聘 </a></li>
-    <li><a href="#" title="" target="_blank"> | 关注微博 <img src="<?php bloginfo('template_url'); ?>/images/weibo.gif" alt="关注我们的微博"></a></li>
+    <li><a href="http://weibo.com/fengdequanzaojiao" title="" target="_blank"> | 关注微博 <img src="<?php bloginfo('template_url'); ?>/images/weibo.gif" alt="关注我们的微博"></a></li>
     <li class="h_weixin"><a href="#" title="微信" target="_blank"> | 扫扫微信 <img src="<?php bloginfo('template_url'); ?>/images/weixin.gif" alt="微信公众帐号"></a></li>
     <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=157779790&amp;site=qq&amp;menu=yes" title="" target="_blank"> | QQ客服 <img src="<?php bloginfo('template_url'); ?>/images/qq.gif" alt="有事您Q我吧"></a></li>
     <li class="h_weixin_hover"><img src="<?php bloginfo('template_url'); ?>/images/weixin-hover.png" alt=""></li>

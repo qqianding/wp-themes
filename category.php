@@ -26,10 +26,12 @@ include(TEMPLATEPATH . '/category-da-yi.php');
 elseif ( is_category('company-service') ) { // plugin 为category的别名
 include(TEMPLATEPATH . '/category-service.php');
 }
-elseif ( is_category('case-all') ) { // plugin 为category的别名
+elseif ( is_category('case-all') ) {
 include(TEMPLATEPATH . '/category-case-all.php');
 }
-
+elseif ( is_category('fs-li-lun') ) {
+include(TEMPLATEPATH . '/fs-li-lun.php');
+}
 
 // elseif 结束
 else {

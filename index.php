@@ -84,10 +84,7 @@
   <ul class="pinpai">
     <li class="m_title">
     <span><?php echo get_option('mytheme_about_tit1'); ?></span>
-    <a href="<?php $name = 'about-us'; //page别名
-    global $wpdb;
-    $page_id = $wpdb->get_var("SELECT ID FROM $wpdb->posts WHERE post_name = '$name'");
-    echo get_page_link( $page_id );?>" title="">详细</a>
+    <a href="http://www.zjfdq.com/?page_id=330" title="">详细</a>
     </li>
     <li>
     <p><?php echo get_option('mytheme_about_text1'); ?></p>
@@ -149,17 +146,17 @@
 <div id="" class="zj_fenlei">
   <ul id="" class="">
     <li class="fsll">
-      <a href=""></a></li>
+      <a href="http://www.zjfdq.com/?cat=79" target="_blank" title="冯式理论"></a></li>
     <li class="kctx">
-      <a href=""></a></li>
+      <a href="" target="_blank" title="课程体系"></a></li>
     <li class="yybm">
-      <a href="http://zjfdq.com/?page_id=12" target="_blank"></a></li>
+      <a href="http://zjfdq.com/?page_id=12" target="_blank" title="预约报名"></a></li>
     <li class="jchd">
-      <a href="http://zjfdq.com/?cat=4" target="_blank"></a></li>
+      <a href="http://zjfdq.com/?cat=4" target="_blank" title="精彩活动"></a></li>
     <li class="yhtc">
-      <a href=""></a></li>
+      <a href="http://www.zjfdq.com/?page_id=636" target="_blank" title="优惠套餐"></a></li>
     <li class="jzdy">
-      <a href="http://zjfdq.com/?cat=6" target="_blank"></a></li>
+      <a href="http://zjfdq.com/?cat=6" target="_blank" title="家长答疑"></a></li>
 
   </ul><!-- / -->
 </div><!-- bk_fenlei -->
