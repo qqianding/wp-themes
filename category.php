@@ -22,6 +22,9 @@ elseif ( in_category('da-yi') ) { // plugin 为category的别名
 include(TEMPLATEPATH . '/category-da-yi.php');
 }
 
+elseif ( in_category('kc-ti-xi') ) { // plugin 为category的别名
+include(TEMPLATEPATH . '/category-kc-ti-xi.php');
+}
 
 elseif ( is_category('company-service') ) { // plugin 为category的别名
 include(TEMPLATEPATH . '/category-service.php');

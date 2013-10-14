@@ -220,4 +220,12 @@ input:focus,textarea:focus{-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;-moz-bo
 .title h2 a{line-height: 20px;}
 .title h2{margin: 0;}
 .ks-waterfall {position: absolute; width: 180px;overflow: hidden;padding: 4px;border: 1px solid #f90; margin-bottom: 20px;text-align: center;left:-9999px;top:-9999px;}
-
+/*kc-ti-xi*/
+.kc-ti-xi{width: 100%;height: auto;padding: 30px 0;}
+.kc-ti-xi .h_tx{width: 922px;}
+.kc-ti-xi ul.h_tx li{width: 300px;height: 250px;margin: 0 5px;}
+.kc-ti-xi ul li .h_tx_img{width: 280px;height: 200px;display: block;overflow: hidden;background: #FFF;float: left;border: 10px solid #F5F5F5;}
+.kc-ti-xi ul li .h_tx_img span img{width: 280px;height: 200px;}
+.kc-ti-xi ul li .hover2{width: 300px;height: 220px;}
+.h_tx_title{width: 300px;text-align: center;}
+.h_tx_title h2 a{color: #000;font-size: 26px;line-height: 30px;}

@@ -24,6 +24,9 @@ include(TEMPLATEPATH . '/single-shi-sheng-feng-cai.php');
 elseif ( in_category('da-yi') ) { // plugin 为category的别名
 include(TEMPLATEPATH . '/single-da-yi.php');
 }
+elseif ( in_category('kc-ti-xi') ) { // plugin 为category的别名
+include(TEMPLATEPATH . '/single-kc-ti-xi.php');
+}
 
 elseif ( in_category('company-service') ) {
 include(TEMPLATEPATH . '/single-company-service.php');
