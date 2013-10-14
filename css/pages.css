@@ -223,7 +223,7 @@ input:focus,textarea:focus{-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;-moz-bo
 /*kc-ti-xi*/
 .kc-ti-xi{width: 100%;height: auto;padding: 30px 0;}
 .kc-ti-xi .h_tx{width: 922px;}
-.kc-ti-xi ul.h_tx li{width: 300px;height: 250px;margin: 0 5px;}
+.kc-ti-xi ul.h_tx li{width: 300px;height: 250px;margin: 0 3px;}
 .kc-ti-xi ul li .h_tx_img{width: 280px;height: 200px;display: block;overflow: hidden;background: #FFF;float: left;border: 10px solid #F5F5F5;}
 .kc-ti-xi ul li .h_tx_img span img{width: 280px;height: 200px;}
 .kc-ti-xi ul li .hover2{width: 300px;height: 220px;}

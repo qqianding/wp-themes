@@ -59,9 +59,9 @@ var jiathis_config={
       <div class="textwidget">
         <div id="categories-2" class="h_fenleimulu">  
       <ul>
-        <li class=""><a href="http://zjfdq.com/?cat=4" target="_blank">全日制</a></li>
-        <li class=""><a href="http://zjfdq.com/?cat=4" target="_blank">游泳馆</a></li>
-        <li class=""><a href="http://zjfdq.com/?cat=4" target="_blank">亲子馆</a></li>
+        <li class=""><a href="http://www.zjfdq.com/?p=738" target="_blank">全日制</a></li>
+        <li class=""><a href="http://www.zjfdq.com/?p=747" target="_blank">游泳馆</a></li>
+        <li class=""><a href="http://www.zjfdq.com/?p=750" target="_blank">亲子馆</a></li>
       </ul>
         </div>
       </div>

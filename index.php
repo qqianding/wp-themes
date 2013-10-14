@@ -148,7 +148,7 @@
     <li class="fsll">
       <a href="http://www.zjfdq.com/?cat=79" target="_blank" title="冯式理论"></a></li>
     <li class="kctx">
-      <a href="" target="_blank" title="课程体系"></a></li>
+      <a href="http://www.zjfdq.com/?cat=113" target="_blank" title="课程体系"></a></li>
     <li class="yybm">
       <a href="http://zjfdq.com/?page_id=12" target="_blank" title="预约报名"></a></li>
     <li class="jchd">
