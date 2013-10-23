@@ -15,8 +15,8 @@ $cat=get_category_by_slug('company-case'); //获取分类别名为 wordpress 的
      <div class="chicun2">
   <?php if (get_option('mytheme_lx_cititle')!=""): ?>
    <img src="<?php echo get_option('mytheme_lx_cititle'); ?>" />
-    <?php else : ?>   
-   <img src="<?php bloginfo('template_url'); ?>/images/pages/anli-fuwu.jpg" />
+    <?php else : ?><a href="http://zjfdq.com/?page_id=12"> 
+   <img src="<?php bloginfo('template_url'); ?>/images/pages/anli-fuwu.jpg" /></a> 
      <?php endif; ?>
      </div>
    <ul class="new_tu" style="width:900px;">

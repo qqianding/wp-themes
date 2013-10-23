@@ -4,8 +4,8 @@
     <div class="chicun2">
     <?php if (get_option('mytheme_lx_title')!=""): ?>
    <img src="<?php echo get_option('mytheme_lx_title'); ?>" />
-    <?php else : ?>   
-   <img src="<?php bloginfo('template_url'); ?>/images/pages/ke-cheng.jpg" />
+    <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
+   <img src="<?php bloginfo('template_url'); ?>/images/pages/ke-cheng.jpg" /></a>
      <?php endif; ?>
      </div>
     <ul class="all_nav2">

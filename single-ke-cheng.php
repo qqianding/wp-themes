@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="maim_pages">
-   <div class="main3"> 
-   <img src="<? bloginfo('template_url'); ?>/images/pages/ke-cheng.jpg" />
+   <div class="main3"> <a href="http://zjfdq.com/?page_id=12">
+   <img src="<? bloginfo('template_url'); ?>/images/pages/ke-cheng.jpg" /></a>
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 

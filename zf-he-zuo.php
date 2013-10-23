@@ -11,8 +11,8 @@ Template Name:zheng-fu-he-zuo
     <div class="chicun">
    <?php if (get_option('mytheme_case_title')!=""): ?>
    <img src="<?php echo get_option('mytheme_case_title'); ?>" />
-    <?php else : ?>   
- <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" />
+    <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" /></a>
    <?php endif; ?>
    </div>
   </div>
