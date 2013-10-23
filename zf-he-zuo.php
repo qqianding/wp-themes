@@ -7,8 +7,16 @@ Template Name:zheng-fu-he-zuo
 
 <?php get_header(); ?>
 <div class="maim_pages">
+   <div class="about_bt2">
+    <div class="chicun">
+   <?php if (get_option('mytheme_case_title')!=""): ?>
+   <img src="<?php echo get_option('mytheme_case_title'); ?>" />
+    <?php else : ?>   
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" />
+   <?php endif; ?>
+   </div>
+  </div>
    <div class="main3"> 
-   
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 

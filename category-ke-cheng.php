@@ -44,7 +44,7 @@
                   </a> 
                   <div class="h_btn">
                     <a class="h_yuedu" href="<?php the_permalink() ?>" title="">详细内容</a>
-                    <a class="h_shiping" href="<?php the_permalink() ?>" title="">课程视频</a>
+                    <a class="h_shiping" href="http://zjfdq.com/?page_id=12" title="">课程视频</a>
                   </div><!-- / -->
                 </div> 
             </li>

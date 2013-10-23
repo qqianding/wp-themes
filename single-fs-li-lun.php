@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="maim_pages">
    <div class="main3"> 
-   <img src="<? bloginfo('template_url'); ?>/images/pages/fs-li-lun.jpg" />
+   <img src="<? bloginfo('template_url'); ?>/images/pages/fs-lilun.jpg" />
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 

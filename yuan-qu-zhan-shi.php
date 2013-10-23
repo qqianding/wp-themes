@@ -7,6 +7,15 @@ Template Name:yuan-qu-zhan-shi
 
 <?php get_header(); ?>
 <div class="maim_pages">
+     <div class="about_bt2">
+    <div class="chicun">
+   <?php if (get_option('mytheme_case_title')!=""): ?>
+   <img src="<?php echo get_option('mytheme_case_title'); ?>" />
+    <?php else : ?>   
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" />
+   <?php endif; ?>
+   </div>
+  </div>
    <div class="main3"> 
    
     <ul class="all_nav2">

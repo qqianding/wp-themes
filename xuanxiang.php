@@ -202,17 +202,17 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
          <legend><strong>地址</strong></legend>
 				<textarea name="dizhi" id="dizhi" rows="1" cols="70"><?php echo get_option('mytheme_dizhi'); ?></textarea><br />
  
-				<em>示例：杭州市西湖区文三路553号浙江中小企业大厦1705</em>
+				<em>示例：杭州市西湖区**路**号**室</em>
       
        <legend><strong>电话</strong></legend>
 				<textarea name="tell" id="tell" rows="1" cols="70"><?php echo get_option('mytheme_tell'); ?></textarea><br />
  
-				<em>示例：0571-87954148</em>
+				<em>示例：0571-12345678</em>
                 
                        <legend><strong>传真</strong></legend>
 				<textarea name="fax" id="fax" rows="1" cols="70"><?php echo get_option('mytheme_fax'); ?></textarea><br />
  
-				<em>示例：0571-87954148</em>
+				<em>示例：0571-12345678</em>
 		
 		       <legend><strong>电子邮件</strong></legend>
 				<textarea name="mail" id="mail" rows="1" cols="70"><?php echo get_option('mytheme_mail'); ?></textarea><br />
@@ -253,14 +253,8 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
  </li>
  
    <li>
-		
-       
  </li>
  </ul>
-              
-			
-         
-
  
 				<em style="float:left; margin-top:60px;">默认为天安门地图，坐标获得方法：
                  <br /> 1.点击进入<A target="_blank" href="http://api.map.baidu.com/lbsapi/creatmap/index.html/">百度地图制作</A><br />2.点击侧边栏"定位中心点"，找到公司所在位置
