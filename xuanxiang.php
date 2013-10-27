@@ -579,44 +579,6 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
 <li class="box"> <h1>各个分类栏目的banner设置</h1>
  <div class="text" style="display:none">
 
- 
-	<fieldset>
- 
-	<legend><strong>提供下载的资料</strong></legend>
- 
-              
-           <div class="up">
-           <input type="text" size="80"  name="news_title" id="news_title" value="<?php echo get_option('mytheme_news_title'); ?>"/>   
-            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
-                </div>
-				
- 
-				<em>下载的资料（上载 .zip .pdf .rar等文件</em>
- 
-	</fieldset>
-    
-    	<fieldset>
- 
-	<legend><strong>关于我们的图片</strong></legend>
- 
-              <p>预览：</p>
-               <img src="<?php echo get_option('mytheme_case_title'); ?>" />
-               
-               
-				 <div class="up">
-           <input type="text" size="80"  name="case_title" id="case_title" value="<?php echo get_option('mytheme_case_title'); ?>"/>   
-            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
-                </div>
-                
-                <br />
- 
-				<em>关于我们页面显示的图片 不填写则显示默认图像</em>
- 
-
-	</fieldset>
- 
-
-
 <fieldset>
  <ul class="jiao_div">
   <h2>早教园介绍-顶部-banner   <a>+点击开关</a></h2>
@@ -802,42 +764,6 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
  </li>
  </ul>
 </fieldset>
-
- 
-     	<fieldset>
- 
-	<legend><strong>新闻页面显示的图片</strong></legend>
- 
-               <p>预览：</p>
-          <img src="<?php echo get_option('mytheme_lx_title'); ?>" />
-          
-				 <div class="up">
-           <input type="text" size="80"  name="lx_title" id="lx_title" value="<?php echo get_option('mytheme_lx_title'); ?>"/>   
-            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
-                </div>
-				
-				<em>新闻页面显示的图片 不填写则显示默认图像</em>
-                
- 
-		<legend><strong>案例（产品）页面显示的图片</strong></legend>
-         <p>预览：</p>
-            <img src="<?php echo get_option('mytheme_lx_cititle'); ?>" />
-				 <div class="up">
-           <input type="text" size="80"  name="lx_cititle" id="lx_cititle" value="<?php echo get_option('mytheme_lx_cititle'); ?>"/>   
-            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
-                </div>
-                
-              
- 
-			<em>案例（产品）页面显示的图片 不填写则显示默认图像</em>
-         
-				
-				
-
-	</fieldset>
-
-    
- 
 
  	<p class="submit">
  
