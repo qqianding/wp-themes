@@ -75,6 +75,46 @@ function mytheme_page (){
 		'about_img0',
 		'about_url0',
 		'about_tit0',
+
+		'bn_img_1',
+		'bn_url_1',
+		'bn_tit_1',
+
+		'bn_img_2',
+		'bn_url_2',
+		'bn_tit_2',
+
+		'bn_img_3',
+		'bn_url_3',
+		'bn_tit_3',
+
+		'bn_img_4',
+		'bn_url_4',
+		'bn_tit_4',
+
+		'bn_img_5',
+		'bn_url_5',
+		'bn_tit_5',
+
+		'bn_img_6',
+		'bn_url_6',
+		'bn_tit_6',
+
+		'bn_img_7',
+		'bn_url_7',
+		'bn_tit_7',
+
+		'bn_img_8',
+		'bn_url_8',
+		'bn_tit_8',
+
+		'bn_img_9',
+		'bn_url_9',
+		'bn_tit_9',
+
+		'bn_img_10',
+		'bn_url_10',
+		'bn_tit_10',
 		
 		'beian',
 		'dizhi',
@@ -536,7 +576,7 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
 
 </div>
 </li>
-<li class="box"> <h1>其他选项</h1>
+<li class="box"> <h1>各个分类栏目的banner设置</h1>
  <div class="text" style="display:none">
 
  
@@ -553,12 +593,6 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
  
 				<em>下载的资料（上载 .zip .pdf .rar等文件</em>
  
-		
-			
-         
-				
-				
-
 	</fieldset>
     
     	<fieldset>
@@ -578,14 +612,36 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
  
 				<em>关于我们页面显示的图片 不填写则显示默认图像</em>
  
-		
-				
-         
-				
-				
 
 	</fieldset>
  
+
+
+<fieldset>
+ <ul class="jiao_div">
+  <h2>早教园介绍  <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_1'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_1" id="bn_img_1" value="<?php echo get_option('mytheme_bn_img_1'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_1" id="bn_url_1" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_1'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_1" id="bn_url_1" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_1'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+</fieldset>
+
  
      	<fieldset>
  

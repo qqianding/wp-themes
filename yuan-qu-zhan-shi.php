@@ -9,8 +9,8 @@ Template Name:yuan-qu-zhan-shi
 <div class="maim_pages">
      <div class="about_bt2">
     <div class="chicun">
-   <?php if (get_option('mytheme_case_title')!=""): ?>
-   <img src="<?php echo get_option('mytheme_case_title'); ?>" />
+     <?php if (get_option('mytheme_bn_img_1')!=""): ?>
+<a href="<?php echo get_option('mytheme_bn_url_1') ?>" target="_blank"> <img src="<?php echo get_option('mytheme_bn_img_1'); ?>" alt="<?php echo get_option('mytheme_bn_tit_1')?>" /></a>
     <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
  <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" /></a>
    <?php endif; ?>
