@@ -12,6 +12,7 @@
 .main2{ width:950px; height:auto; margin:0 auto; position:relative; }
 .main5{ width:924px; height:auto; margin:0 auto; background:#FFF; overflow:hidden;  padding:10px 10px 0px 10px; position:relative; }
 .main3{ width:924px; height:auto; margin:0 auto; background:#FFF; overflow:hidden;  padding:10px 10px 20px 10px; position:relative;}
+.main3 > a > img{width: 923px;height: 157px;}
 .leftmain5{width: 600px;height: auto;float: right;padding: 10px 0 0 0;}
 .leftmain2{ width:716px; height:auto; float:left; box-shadow: 0 0 5px  #CCC; padding:15px; overflow:hidden; border:#CCC solid 1px;}
 .leftmain_c{ width:920px; height:auto; float:left; box-shadow: 0 0 5px  #CCC; padding:15px; overflow:hidden; border:#CCC solid 1px;}
@@ -22,9 +23,9 @@
 .rightmain{ float:right; width:299px; height:auto;}
 .rightmain2{ float:left;width: 280px; height:auto; padding:10px;}
 .chicun{ width:950px; height:auto; overflow:hidden; margin:0 auto;}
-.chicun img{ max-width:950px; *width: expression(this.width > 950 ? 950 : true);}
+.chicun img{width: 923px;height: 157px; max-width:950px; *width: expression(this.width > 950 ? 950 : true);}
 .chicun2{ width:923px; height:auto; overflow:hidden;margin:0 auto;}
-.chicun2 img{ max-width:923px; *width: expression(this.width > 923 ? 923 : true); }
+.chicun2 img{width: 923px;height: 157px; max-width:923px; *width: expression(this.width > 923 ? 923 : true); }
 
 /*首页样式*/
 
