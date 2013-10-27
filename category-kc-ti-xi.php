@@ -2,11 +2,11 @@
 
    <div class="main5"> 
     <div class="chicun2">
-    <?php if (get_option('mytheme_lx_title')!=""): ?>
-   <img src="<?php echo get_option('mytheme_lx_title'); ?>" />
-    <?php else : ?>  <a href="http://zjfdq.com/?page_id=12"> 
-   <img src="<?php bloginfo('template_url'); ?>/images/pages/kc-ti-xi.jpg" /></a>
-     <?php endif; ?>
+   <?php if (get_option('mytheme_bn_img_7')!=""): ?>
+<a href="<?php echo get_option('mytheme_bn_url_7') ?>" target="_blank"> <img src="<?php echo get_option('mytheme_bn_img_7'); ?>" alt="<?php echo get_option('mytheme_bn_tit_7')?>" /></a>
+    <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" /></a>
+   <?php endif; ?>
      </div>
 <div id="" class="kc-ti-xi">
 

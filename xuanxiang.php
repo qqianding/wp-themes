@@ -619,7 +619,7 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
 
 <fieldset>
  <ul class="jiao_div">
-  <h2>早教园介绍  <a>+点击开关</a></h2>
+  <h2>早教园介绍-顶部-banner   <a>+点击开关</a></h2>
   <li>
   <p>效果预览：</p>
             <img src="<?php echo get_option('mytheme_bn_img_1'); ?>" /><br />
@@ -637,6 +637,167 @@ BUG提交，请进入highsea90网站，留言即可，我们收到留言即将�
  </li>
   <li>
 		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_1" id="bn_url_1" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_1'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>新闻动态-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_2'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_2" id="bn_img_2" value="<?php echo get_option('mytheme_bn_img_2'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_2" id="bn_url_2" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_2'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_2" id="bn_url_2" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_2'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>师生风采-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_3'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_3" id="bn_img_3" value="<?php echo get_option('mytheme_bn_img_3'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_3" id="bn_url_3" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_3'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_3" id="bn_url_3" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_3'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>免费试听课-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_4'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_4" id="bn_img_4" value="<?php echo get_option('mytheme_bn_img_4'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_4" id="bn_url_4" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_4'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_4" id="bn_url_4" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_4'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>精彩活动-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_5'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_5" id="bn_img_5" value="<?php echo get_option('mytheme_bn_img_5'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_5" id="bn_url_5" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_4'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_5" id="bn_url_5" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_4'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>冯氏理论-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_6'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_6" id="bn_img_6" value="<?php echo get_option('mytheme_bn_img_6'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_6" id="bn_url_6" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_6'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_4" id="bn_url_4" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_4'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>课程体系-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_7'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_7" id="bn_img_7" value="<?php echo get_option('mytheme_bn_img_7'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_7" id="bn_url_7" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_7'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_7" id="bn_url_7" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_7'); ?></textarea>
+         <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
+ </li>
+ </ul>
+
+ <ul class="jiao_div">
+  <h2>优惠券套餐-顶部-banner <a>+点击开关</a></h2>
+  <li>
+  <p>效果预览：</p>
+            <img src="<?php echo get_option('mytheme_bn_img_8'); ?>" /><br />
+			<a>图片地址</a>	
+            
+           <div class="up">
+           <input type="text" size="80"  name="bn_img_8" id="bn_img_8" value="<?php echo get_option('mytheme_bn_img_8'); ?>"/>   
+            <input type="button" name="upload_button" value="上传" id="upbottom"/>   
+                </div>
+             <em>焦点图尺寸为：924*157</em>
+ </li>
+ <li>
+		<a>链接</a>	<textarea class="jiao" name="bn_url_8" id="bn_url_8" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_8'); ?></textarea>
+         <em>填写您想要这张图片链接的网页地址</em>
+ </li>
+  <li>
+		<a>替换文字</a>	<textarea class="jiao" name="bn_tit_8" id="bn_url_8" rows="1" cols="46"><?php echo get_option('mytheme_bn_url_8'); ?></textarea>
          <em>写上焦点图的替换文字，这有利于搜索引擎的搜索</em>
  </li>
  </ul>

@@ -3,11 +3,11 @@
   
    <div class="main5"> 
     <div class="chicun2">
-    <?php if (get_option('mytheme_lx_title')!=""): ?>
-   <img src="<?php echo get_option('mytheme_lx_title'); ?>" />
-    <?php else : ?> <a href="http://zjfdq.com/?page_id=12">
-   <img src="<?php bloginfo('template_url'); ?>/images/pages/company-news.jpg" /></a>
-     <?php endif; ?>
+         <?php if (get_option('mytheme_bn_img_2')!=""): ?>
+<a href="<?php echo get_option('mytheme_bn_url_2') ?>" target="_blank"> <img src="<?php echo get_option('mytheme_bn_img_2'); ?>" alt="<?php echo get_option('mytheme_bn_tit_2')?>" /></a>
+    <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" /></a>
+   <?php endif; ?>
      </div>
     <ul class="all_nav2">
         <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>

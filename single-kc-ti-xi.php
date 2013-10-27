@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 <div class="maim_pages">
-   <div class="main3"> <a href="http://zjfdq.com/?page_id=12">
-   <img src="<? bloginfo('template_url'); ?>/images/pages/kc-ti-xi.jpg" /></a>
+   <div class="main3"><?php if (get_option('mytheme_bn_img_7')!=""): ?>
+<a href="<?php echo get_option('mytheme_bn_url_7') ?>" target="_blank"> <img src="<?php echo get_option('mytheme_bn_img_7'); ?>" alt="<?php echo get_option('mytheme_bn_tit_7')?>" /></a>
+    <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" /></a>
+   <?php endif; ?>
     <ul class="all_nav2">
          <li><a href="<?php  bloginfo('url');?>">首页</a> &nbsp;> &nbsp;</li>
         <li><a href=" <?php 

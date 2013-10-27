@@ -9,10 +9,10 @@ Template Name:you-hui-quan
 
    <div class="about_bt2">
     <div class="chicun">
-   <?php if (get_option('mytheme_case_title')!=""): ?>
-   <img src="<?php echo get_option('mytheme_case_title'); ?>" />
-    <?php else : ?>   
- <img src="<?php bloginfo('template_url'); ?>/images/pages/youhuiquan.jpg" />
+  <?php if (get_option('mytheme_bn_img_8')!=""): ?>
+<a href="<?php echo get_option('mytheme_bn_url_8') ?>" target="_blank"> <img src="<?php echo get_option('mytheme_bn_img_8'); ?>" alt="<?php echo get_option('mytheme_bn_tit_8')?>" /></a>
+    <?php else : ?>   <a href="http://zjfdq.com/?page_id=12">
+ <img src="<?php bloginfo('template_url'); ?>/images/pages/about-fszj.jpg" /></a>
    <?php endif; ?>
    </div>
   </div>
